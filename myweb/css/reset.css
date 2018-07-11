@@ -1,0 +1,94 @@
+html,body,ul,li,p,h1,h2,h3,h4,h5,h6,form,img,input,dl,dt,dd,table,tr,td{padding: 0;margin: 0;}
+body{font:12px "微软雅黑";background: #fff;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+img,form{border: none;}
+.fl{float: left;}
+.fr{float: right;}
+
+.main{width:1004px;margin: 0 auto;}
+
+img{border:0;}
+a{
+	cursor:pointer
+}
+.clearfix:after{content: ".";display: block;clear: both;font-size: 1px;height: 0;overflow: hidden;visibility: hidden;}
+
+.head{
+	background: black;
+	color: white;
+	height: 20px;
+	padding: 10px;
+	min-width: 1004px;
+}
+.head li{
+	
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	border-right: 1px solid #fff;
+	padding: 0 10px;
+	font-size: 16px;
+}
+.head a{
+	color:#fff;
+}
+.head .noborder{
+	border: none;
+}
+
+
+.top{height:72px;position: relative;}
+.logo{padding:0 10px ;display: block;float: left;height: 60px;line-height: 60px;background: orange;color: #fff;margin: 6px 21px 6px 0;}
+
+.top ul li{float:left;margin-right: 21px;}
+/*.top li:hover .select_msg{display: block;}*/
+.top ul li a{line-height:72px;display: block;font-size: 18px;color: #b1b1b1;padding:0 2px;}
+.select_msg{
+	background: #fff;
+	width: 1004px;
+	position: absolute;
+	z-index: 99;
+	left: 0;
+	top:72px;
+	display: none;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}
+.select_msg div{
+	float: left;
+	border-right: 1px solid #ccc;
+}
+.select_msg div:last-child{
+	border: none;
+}
+.select_msg div img{
+	width:200px;
+	
+}
+
+.top .search{width:315px;height:34px;background: #fff;vertical-align: middle;margin-top: 18px;border: 1px solid #ccc;}
+.search-int{float:left;width:244px;height:34px; border: none;background: #fff;border-right: 1px solid #ccc ;}
+.search-sub{float:right;width:70px;height:32px;border:none;color:#090b09;font:bold 14px "宋体";background: #fff;}
+
+
+div.foot{
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+	padding-top:20px ;
+}
+.foot dl{
+	float: left;
+	width: 200px;
+	text-align: center;
+}
+.foot dt{
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+}
+.foot dd{
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+}

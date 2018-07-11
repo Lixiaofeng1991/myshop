@@ -1,0 +1,30 @@
+.login{width:800px;height:378px;position: fixed;top:0;left:0;bottom: 0;right: 0;margin: auto;background: #fff;}
+.login form{padding-right: 36px;width;306px;margin-left: 30px;width:500px}
+.login form h2{height:40px;line-height: 40px;font-size: 24px;color: #181b1d;margin-left: 59px;font-weight: normal;}
+.login form p{height:60px;line-height: 60px;font-size: 14px;}
+.login form p label{white-space: pre-wrap;}
+.login form .int{width: 198px;height: 30px;font-size: 14px;padding-left: 12px;margin-left: 18px;}
+.login .identifying{width:76px;height: 30px;margin-left: 15px;}
+.login form img{vertical-align: middle;margin: 0 10px 0 12px;}
+.login .form-p4{height:18px;line-height: 18px;margin-left: 59px;color:#eb0f18;}
+.login .form-p5{height:26px;line-height: 26px;font-size: 12px;margin-left: 59px;vertical-align: middle;color: #000;}
+.login .form-p5 a{margin-left: 25px;color: #000000;}
+.login .form-sub{width:210px;height: 36px;background: #6aa816;margin:12px 0 0 59px;border: 1px solid #568515;border-radius: 5px;cursor: pointer;color:#fff;font-size: 14px;}
+.login ul{border-left:1px solid #b1b1b1 ;padding-left: 36px;}
+.green{width:100px;height: 25px;background: #72b11c;margin: 0 0 11px 87px;}
+.height40{height:40px;line-height: 40px;font-size: 14px;}
+.ul-lastli{text-align: center;padding-top:6px ;}
+
+.login form.register{
+	width:700px;
+}
+i{
+	font-style: normal;
+	color: red;
+}
+.login .marginLeft110{
+	margin-left: 110px;
+}
+.login .marginLeft80{
+	margin-left: 80px;
+}

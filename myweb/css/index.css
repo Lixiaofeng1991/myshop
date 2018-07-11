@@ -1,0 +1,135 @@
+
+.nav{position: relative;}
+.nav_left{
+	width: 202px;
+	height: 301px;
+	background: #ccc;
+}
+.nav_left_ul{
+	padding-top:10px ;
+}
+.nav_left_ul_li:hover .nav_left_show_msg{display: block;}
+.nav_left_ul_li:hover {
+	background: orange;
+}
+.nav_left_ul_li_a{height: 40px;line-height: 40px;display: block;padding-left: 5px;}
+.nav_left_show_msg{
+	border: 1px solid #ccc;
+	height: 299px;
+	position: absolute;
+	top:0;
+	left:202px ;
+	z-index: 99;
+	background: #fff;
+	display: none;
+}
+.nav_left_show_msg ul{
+	width: 200px;
+	text-align: center;
+	float: left;
+}
+.nav_left_show_msg li{
+	height: 60px;
+}
+.nav_left_show_msg img {
+	/*padding-top: 5px;*/
+	width: 50px;
+	vertical-align: middle;
+}
+.nav_left_show_msg span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav_right{
+	width: 802px;
+	height: 300px;
+	position: relative;
+	
+}
+.nav_right_ul li{
+	position: absolute;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.nav_right_ul li:first-child{
+	display: block;
+}
+.nav_right_ul img{
+	width: 802px;
+}
+
+.nav_right span{
+	display: none;
+	width: 30px;
+	height: 40px;
+	background-size: cover;
+	position: absolute;
+	top:50%;
+	margin-top:-20px ;
+	opacity:0.3 ;
+}
+.nav_right_leftBtn{
+	background: url(../images/ms_04.jpg) no-repeat ;
+	left:10px;
+}
+.nav_right_righBtn{
+	background: url(../images/ms_06.jpg) no-repeat ;
+	right: 10px;
+}
+.nav_right_circle {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -50px;
+	
+	
+}
+.nav_right_circle i{
+	font-style:normal ;
+	display: inline-block;
+	width:10px;
+	height: 10px;
+	background: rgba(0,0,0,0.3);
+	border-radius: 50% 50%;
+	cursor:pointer;
+	margin: 0 5px;
+}
+i.current{
+	background: orange;
+}
+
+.goods{
+	padding: 10px 0;
+	overflow: hidden;
+	background: #f5f5f5;
+	margin-top: 20px;
+}
+.goods h3{
+	height: 40px;
+	font-size:30px ;
+	line-height: 40px;
+	padding: 5px;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 10px;
+}
+.goods ul{
+	width:1014px;
+}
+.goods li{
+	float: left;
+	width: 190px;
+	height: 250px;
+	text-align: center;
+	margin:0 5px 10px;
+	padding-top: 10px;
+	background: #fff;
+}
+.goods li img{
+	width: 100%;
+}
+
+
+
