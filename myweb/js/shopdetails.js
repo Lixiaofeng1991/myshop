@@ -89,7 +89,7 @@ $(function(){
 				version:"64g",
 				count:1,
 			};
-		}else if($("body")[0].id=="notebook"){
+		}else if($("body")[0].id=="phone"){
 			//定义商品数组
 			arr = {
 				shopId:1,
