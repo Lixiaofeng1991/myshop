@@ -5,8 +5,8 @@
 		<title>欢迎登录</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="css/login.css"/>
-		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>-->
 	</head>
 	<body>
 	<div class="login">
@@ -30,5 +30,11 @@
 			<li class="ul-lastli"><a href="#"><img src="images/login_11.jpg"b/></a><p>扫描二维码登陆</p></li>
 		</ul>
 	</div>
+	<script type="text/javascript" src="js/require.js" data-main="js/main"></script>
+	<script type="text/javascript">
+		require(['login'], function(login){
+			login.init();
+		})
+	</script>
 	</body>
 </html>

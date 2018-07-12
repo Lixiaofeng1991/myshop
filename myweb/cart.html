@@ -5,8 +5,8 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
-		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>-->
 	</head>
 	<body>
 		<!-----------头部  start------------->
@@ -37,6 +37,11 @@
 		<!-----------底部  start------------->
 		<div class="footer"></div>
 		<!-----------底部  end------------->
-		
+		<script src="js/require.js" data-main = "js/main" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			require(["cart"],function(cart){
+				cart.init();
+			})
+		</script>
 	</body>
 </html>
